@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --studio-bg: #050505;
+  --studio-surface: #0e0e10;
+  --studio-neon-cyan: #22d3ee;
+  --studio-neon-pink: #d946ef;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 15% 0%, #112024 0%, #050505 35%), radial-gradient(circle at 85% 10%, #241124 0%, #050505 40%), var(--studio-bg);
+  color: #f4f4f5;
+  font-family: "Manrope", sans-serif;
+}
+
+.font-heading {
+  font-family: "Outfit", sans-serif;
+}
+
+.font-body {
+  font-family: "Manrope", sans-serif;
+}
